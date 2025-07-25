@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.document-list {
+  margin-top: 20px;
+}
+
+.document-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.document-item h3 {
+  margin: 0;
+  color: #007bff;
+}
+
+.document-item p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.document-item a {
+  display: inline-block;
+  margin-top: 5px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.document-item a:hover {
+  text-decoration: underline;
+}
